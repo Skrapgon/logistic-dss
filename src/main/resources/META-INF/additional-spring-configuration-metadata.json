@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "ontology.base.path",
+    "type": "java.lang.String",
+    "description": "A description for 'ontology.base.path'"
+  },
+  {
+    "name": "ontology.base.IRI",
+    "type": "java.lang.String",
+    "description": "A description for 'ontology.base.IRI'"
+  },
+  {
+    "name": "ontology.base.ruleID",
+    "type": "java.lang.String",
+    "description": "A description for 'ontology.base.ruleID'"
+  },
+  {
+    "name": "ontology.base.taskNameIRI",
+    "type": "java.lang.String",
+    "description": "A description for 'ontology.base.taskNameIRI'"
+  }
+]}

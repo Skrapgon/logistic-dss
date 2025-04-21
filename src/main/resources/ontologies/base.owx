@@ -1,0 +1,669 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2023/6/untitled-ontology-15"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2023/6/untitled-ontology-15">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2023/6/untitled-ontology-15#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrl2" IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Declaration>
+        <Class IRI="#Груз"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Дорога"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Железнодорожная_станция"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Итоговая_информация_о_маршруте"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Маршрут"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Погода"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Потребитель"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Рекомендация"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Склад"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Транспорт"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Встречается_на_маршрутах"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Едет"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Завозится"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Информация_о_маршруте"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Лучшее_расположение_склада"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Нуждается"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Перевозит"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Содержит"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Состоит_из"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Стоит"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Безопасность_маршрута"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Вероятность_безопасного_проезда"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Вес"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Время_прохождения_маршрута"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Время_прохождения_участка"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Грузоподъемность"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Координата_x"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Координата_x_ЖДстанции"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Координата_x_бригады"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Координата_x_склада"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Координата_y"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Координата_y_ЖДстанции"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Координата_y_бригады"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Координата_y_склада"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Максимальная_скорость"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Название_груза"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Название_транспорта"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Прикреплен_к_маршруту"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Приоритет_маршрута"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Приоритет_склада"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Протяженность_дорожного_покрытия"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Текущая_погода"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Тип_дорожного_покрытия"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mercedes-Benz_Actros"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Груз1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Груз2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Груз3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ЗИЛ-130"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#КамАЗ_43089_Компас"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Малооблачно"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Небольшой_дождь"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Пасмурно"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Сильный_дождь"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ясно"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="swrl2:isRuleEnabled"/>
+    </Declaration>
+    <DisjointClasses>
+        <Class IRI="#Груз"/>
+        <Class IRI="#Дорога"/>
+        <Class IRI="#Железнодорожная_станция"/>
+        <Class IRI="#Погода"/>
+        <Class IRI="#Потребитель"/>
+        <Class IRI="#Склад"/>
+        <Class IRI="#Транспорт"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Транспорт"/>
+        <NamedIndividual IRI="#Mercedes-Benz_Actros"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Груз"/>
+        <NamedIndividual IRI="#Груз1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Груз"/>
+        <NamedIndividual IRI="#Груз2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Груз"/>
+        <NamedIndividual IRI="#Груз3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Транспорт"/>
+        <NamedIndividual IRI="#ЗИЛ-130"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Транспорт"/>
+        <NamedIndividual IRI="#КамАЗ_43089_Компас"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Погода"/>
+        <NamedIndividual IRI="#Малооблачно"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Погода"/>
+        <NamedIndividual IRI="#Небольшой_дождь"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Погода"/>
+        <NamedIndividual IRI="#Пасмурно"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Погода"/>
+        <NamedIndividual IRI="#Сильный_дождь"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Погода"/>
+        <NamedIndividual IRI="#Ясно"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Перевозит"/>
+        <NamedIndividual IRI="#Mercedes-Benz_Actros"/>
+        <NamedIndividual IRI="#Груз1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Перевозит"/>
+        <NamedIndividual IRI="#Mercedes-Benz_Actros"/>
+        <NamedIndividual IRI="#Груз3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Перевозит"/>
+        <NamedIndividual IRI="#ЗИЛ-130"/>
+        <NamedIndividual IRI="#Груз2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Перевозит"/>
+        <NamedIndividual IRI="#КамАЗ_43089_Компас"/>
+        <NamedIndividual IRI="#Груз3"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Грузоподъемность"/>
+        <NamedIndividual IRI="#Mercedes-Benz_Actros"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Максимальная_скорость"/>
+        <NamedIndividual IRI="#Mercedes-Benz_Actros"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">162</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_транспорта"/>
+        <NamedIndividual IRI="#Mercedes-Benz_Actros"/>
+        <Literal>Mercedes-Benz Actros</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Вес"/>
+        <NamedIndividual IRI="#Груз1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">390</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_груза"/>
+        <NamedIndividual IRI="#Груз1"/>
+        <Literal>Груз 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Вес"/>
+        <NamedIndividual IRI="#Груз2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">670</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_груза"/>
+        <NamedIndividual IRI="#Груз2"/>
+        <Literal>Груз 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Вес"/>
+        <NamedIndividual IRI="#Груз3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">250</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_груза"/>
+        <NamedIndividual IRI="#Груз3"/>
+        <Literal>Груз 3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Грузоподъемность"/>
+        <NamedIndividual IRI="#ЗИЛ-130"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Максимальная_скорость"/>
+        <NamedIndividual IRI="#ЗИЛ-130"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_транспорта"/>
+        <NamedIndividual IRI="#ЗИЛ-130"/>
+        <Literal>ЗИЛ-130</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Грузоподъемность"/>
+        <NamedIndividual IRI="#КамАЗ_43089_Компас"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Максимальная_скорость"/>
+        <NamedIndividual IRI="#КамАЗ_43089_Компас"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">115</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_транспорта"/>
+        <NamedIndividual IRI="#КамАЗ_43089_Компас"/>
+        <Literal>КамАЗ 43089 &quot;Компас&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Текущая_погода"/>
+        <NamedIndividual IRI="#Малооблачно"/>
+        <Literal>Малооблачно</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Текущая_погода"/>
+        <NamedIndividual IRI="#Небольшой_дождь"/>
+        <Literal>Небольшой дождь</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Текущая_погода"/>
+        <NamedIndividual IRI="#Пасмурно"/>
+        <Literal>Пасмурно</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Текущая_погода"/>
+        <NamedIndividual IRI="#Сильный_дождь"/>
+        <Literal>Сильный дождь</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Текущая_погода"/>
+        <NamedIndividual IRI="#Ясно"/>
+        <Literal>Ясная погода</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Встречается_на_маршрутах"/>
+        <Class IRI="#Склад"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Едет"/>
+        <Class IRI="#Итоговая_информация_о_маршруте"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Завозится"/>
+        <Class IRI="#Железнодорожная_станция"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Информация_о_маршруте"/>
+        <Class IRI="#Маршрут"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Лучшее_расположение_склада"/>
+        <Class IRI="#Рекомендация"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Нуждается"/>
+        <Class IRI="#Потребитель"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Перевозит"/>
+        <Class IRI="#Транспорт"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Содержит"/>
+        <Class IRI="#Склад"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Состоит_из"/>
+        <Class IRI="#Маршрут"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Стоит"/>
+        <Class IRI="#Дорога"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Встречается_на_маршрутах"/>
+        <Class IRI="#Маршрут"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Едет"/>
+        <Class IRI="#Транспорт"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Завозится"/>
+        <Class IRI="#Груз"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Информация_о_маршруте"/>
+        <Class IRI="#Итоговая_информация_о_маршруте"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Лучшее_расположение_склада"/>
+        <Class IRI="#Склад"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Нуждается"/>
+        <Class IRI="#Груз"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Перевозит"/>
+        <Class IRI="#Груз"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Содержит"/>
+        <Class IRI="#Груз"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Состоит_из"/>
+        <Class IRI="#Дорога"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Стоит"/>
+        <Class IRI="#Погода"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Время_прохождения_участка"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Координата_x_ЖДстанции"/>
+        <DataProperty IRI="#Координата_x"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Координата_x_бригады"/>
+        <DataProperty IRI="#Координата_x"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Координата_x_склада"/>
+        <DataProperty IRI="#Координата_x"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Координата_y_ЖДстанции"/>
+        <DataProperty IRI="#Координата_y"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Координата_y_бригады"/>
+        <DataProperty IRI="#Координата_y"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Координата_y_склада"/>
+        <DataProperty IRI="#Координата_y"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Вероятность_безопасного_проезда"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Вес"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Грузоподъемность"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Максимальная_скорость"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Название_груза"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Название_транспорта"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Протяженность_дорожного_покрытия"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Текущая_погода"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Безопасность_маршрута"/>
+        <Class IRI="#Маршрут"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Вероятность_безопасного_проезда"/>
+        <Class IRI="#Дорога"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Вес"/>
+        <Class IRI="#Груз"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Время_прохождения_маршрута"/>
+        <Class IRI="#Итоговая_информация_о_маршруте"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Время_прохождения_участка"/>
+        <Class IRI="#Итоговая_информация_о_маршруте"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Грузоподъемность"/>
+        <Class IRI="#Транспорт"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Координата_x_ЖДстанции"/>
+        <Class IRI="#Железнодорожная_станция"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Координата_x_бригады"/>
+        <Class IRI="#Потребитель"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Координата_x_склада"/>
+        <Class IRI="#Склад"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Координата_y_ЖДстанции"/>
+        <Class IRI="#Железнодорожная_станция"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Координата_y_бригады"/>
+        <Class IRI="#Потребитель"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Координата_y_склада"/>
+        <Class IRI="#Склад"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Максимальная_скорость"/>
+        <Class IRI="#Транспорт"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Название_груза"/>
+        <Class IRI="#Груз"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Название_транспорта"/>
+        <Class IRI="#Транспорт"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Прикреплен_к_маршруту"/>
+        <Class IRI="#Транспорт"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Приоритет_маршрута"/>
+        <Class IRI="#Итоговая_информация_о_маршруте"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Приоритет_склада"/>
+        <Class IRI="#Склад"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Протяженность_дорожного_покрытия"/>
+        <Class IRI="#Дорога"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Текущая_погода"/>
+        <Class IRI="#Погода"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Тип_дорожного_покрытия"/>
+        <Class IRI="#Дорога"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Безопасность_маршрута"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Вероятность_безопасного_проезда"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Вес"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Время_прохождения_маршрута"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Время_прохождения_участка"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Грузоподъемность"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Координата_x"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Координата_x_ЖДстанции"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Координата_x_бригады"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Координата_x_склада"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Координата_y"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Координата_y_ЖДстанции"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Координата_y_бригады"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Координата_y_склада"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Максимальная_скорость"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Название_груза"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Название_транспорта"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Прикреплен_к_маршруту"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Приоритет_маршрута"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Приоритет_склада"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Протяженность_дорожного_покрытия"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Текущая_погода"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Тип_дорожного_покрытия"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
